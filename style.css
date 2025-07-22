@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #0e0e13;
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(145deg, #1e1e2f, #181824);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.cta-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #14f195;
+  color: #000;
+  margin: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0aff7d;
+  transform: scale(1.05);
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #14f195;
+}
+
+.about p,
+.tokenomics ul,
+.roadmap ol,
+.buy p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 18px;
+  color: #ddd;
+}
+
+.tokenomics ul,
+.roadmap ol {
+  text-align: left;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
