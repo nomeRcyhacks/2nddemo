@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Meme Coin</title>
+  <title>$GMB – Ghagmari Boys</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: #0f0f0f;
+      background: #000;
       color: #fff;
+      overflow-x: hidden;
     }
     header {
       text-align: center;
       padding: 50px 20px 20px;
-      background: #1e1e1e;
+      background: #111;
     }
     header h1 {
       font-size: 48px;
@@ -24,7 +25,14 @@
     header p {
       font-size: 18px;
       margin-top: 10px;
-      color: #bbb;
+      color: #ccc;
+    }
+    img.meme {
+      display: block;
+      max-width: 300px;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: 3px solid #00ffa1;
     }
     .section {
       padding: 40px 20px;
@@ -35,7 +43,7 @@
       color: #00ffa1;
       font-size: 28px;
     }
-    .tokenomics, .roadmap {
+    .box {
       background: #1a1a1a;
       border-radius: 10px;
       padding: 20px;
@@ -60,44 +68,55 @@
     .btns a:hover {
       background: #00c97f;
     }
+    .chart {
+      margin-top: 40px;
+      width: 100%;
+      max-width: 900px;
+      height: 400px;
+      border: none;
+      border-radius: 12px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
     footer {
       text-align: center;
       padding: 30px;
       background: #111;
-      color: #666;
+      color: #777;
       font-size: 14px;
-    }
-    @media (max-width: 600px) {
-      header h1 { font-size: 36px; }
-      .section h2 { font-size: 22px; }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>YOUR MEME COIN</h1>
-    <p>The next $DOGE killer. A coin made for laughs, loyalty, and 🚀 dreams.</p>
+    <h1>$GMB – Ghagmari Boys</h1>
+    <p>The meme coin with big dreams and bad decisions. Vibing on Solana 🚀</p>
+    <img src="https://i.imgur.com/9DzxvFh.jpg" alt="Meme" class="meme">
   </header>
+
+  <audio autoplay loop>
+    <source src="https://files.catbox.moe/v1vhgg.mp3" type="audio/mpeg">
+  </audio>
 
   <div class="section">
     <h2>Tokenomics</h2>
-    <div class="tokenomics">
+    <div class="box">
       <p><strong>Supply:</strong> 1,000,000,000</p>
-      <p><strong>Tax:</strong> 0%</p>
-      <p><strong>Liquidity:</strong> Burned 🔥</p>
-      <p><strong>Ownership:</strong> Renounced 👑</p>
-      <p><strong>Utility:</strong> Vibes, Memes & Community</p>
+      <p><strong>Buy/Sell Tax:</strong> 0%</p>
+      <p><strong>Liquidity:</strong> Burned</p>
+      <p><strong>Ownership:</strong> Renounced</p>
     </div>
 
     <h2>Roadmap</h2>
-    <div class="roadmap">
+    <div class="box">
       <ul>
-        <li>✅ Launch on Solana</li>
-        <li>✅ Meme Campaign</li>
-        <li>🚧 Community Building</li>
-        <li>🚧 DEX Listings (LetsBonk, Photon, Pump.fun)</li>
-        <li>🚀 Go Viral!</li>
+        <li>✅ Born from boredom</li>
+        <li>✅ Deployed on Solana</li>
+        <li>🚀 Pump.fun launch</li>
+        <li>🚧 Chart memes, Twitter raids, Telegram chaos</li>
+        <li>🔥 Go viral or rug trying</li>
       </ul>
     </div>
 
@@ -105,14 +124,18 @@
       <a href="https://pump.fun" target="_blank">Pump.fun</a>
       <a href="https://letsbonk.io" target="_blank">LetsBonk</a>
       <a href="https://photon.art" target="_blank">Photon</a>
-      <a href="YOUR_TOKEN_LINK_HERE" target="_blank">View Token</a>
       <a href="https://t.me/YOURGROUP" target="_blank">Telegram</a>
       <a href="https://x.com/YOURHANDLE" target="_blank">Twitter</a>
     </div>
+
+    <h2>Live Chart</h2>
+    <iframe class="chart"
+      src="https://pump.fun/embed/TOKEN_ADDRESS_HERE"
+      allowfullscreen></iframe>
   </div>
 
   <footer>
-    © 2025 Your Meme Coin. Powered by Degens & Dreams.
+    © 2025 Ghagmari Boys – Built by true Solana degenz 💀
   </footer>
 
 </body>
