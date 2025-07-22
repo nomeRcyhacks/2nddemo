@@ -3,59 +3,193 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>$LEEP - Sleep Coin</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <title>$LEEP – The Sleepiest Meme Coin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom right, #0f0f0f, #1a1a1a);
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(to right, #ff007a, #ff00ff);
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      animation: typewriter 4s steps(40) 1s 1 normal both;
+      overflow: hidden;
+      border-right: 2px solid #fff;
+      white-space: nowrap;
+    }
+    @keyframes typewriter {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    header p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ff007a;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #ff00ff;
+      text-align: center;
+    }
+
+    .tokenomics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #222;
+      border-radius: 12px;
+      padding: 20px;
+      flex: 1 1 250px;
+      text-align: center;
+      border: 2px solid #ff007a;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff007a;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #ff00ff;
+    }
+
+    footer {
+      text-align: center;
+      background: #000;
+      color: #888;
+      padding: 30px;
+    }
+
+    @media(max-width: 600px){
+      header h1 {
+        font-size: 2rem;
+      }
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header class="hero">
-    <h1>🚀 Welcome to $LEEP</h1>
-    <p>The only coin you can hodl in your sleep 😴</p>
-    <div class="cta-buttons">
-      <a href="#" class="btn">Buy on Pump.fun</a>
-      <a href="#" class="btn">Buy on LetsBonk</a>
-      <a href="#" class="btn">Chart on Photon</a>
-    </div>
+
+  <header>
+    <h1>Welcome to $LEEP</h1>
+    <p>The sleepiest meme coin on Solana... 💤</p>
   </header>
 
-  <section class="about">
-    <h2>About $LEEP</h2>
-    <p>$LEEP is the ultimate meme coin that lets you earn while you rest. Backed by dreams and fueled by community memes.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#buy">Buy</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About $LEEP</h2>
+    <p>$LEEP is a community-powered meme coin built on Solana. No team tokens. No VC. Just dreams and deep sleep.</p>
   </section>
 
-  <section class="tokenomics">
-    <h2>Tokenomics</h2>
-    <ul>
-      <li><strong>Supply:</strong> 1,000,000,000</li>
-      <li><strong>Symbol:</strong> $LEEP</li>
-      <li><strong>Chain:</strong> Solana</li>
-      <li><strong>Tax:</strong> 0%</li>
-    </ul>
+  <section id="tokenomics">
+    <h2 class="section-title">Tokenomics</h2>
+    <div class="tokenomics">
+      <div class="card">
+        <h3>Supply</h3>
+        <p>1,000,000,000 $LEEP</p>
+      </div>
+      <div class="card">
+        <h3>Tax</h3>
+        <p>0% Buy/Sell</p>
+      </div>
+      <div class="card">
+        <h3>Chain</h3>
+        <p>Solana</p>
+      </div>
+    </div>
   </section>
 
-  <section class="roadmap">
-    <h2>Roadmap</h2>
-    <ol>
-      <li>🌕 Launch on Solana</li>
-      <li>🎉 First 1000 Holders</li>
-      <li>📈 Listing on DEX tools</li>
-      <li>🏆 Meme contests & community events</li>
-      <li>🚀 Go to the moon (or bed 😴)</li>
-    </ol>
+  <section id="roadmap">
+    <h2 class="section-title">Roadmap</h2>
+    <div class="tokenomics">
+      <div class="card">
+        <h3>Phase 1</h3>
+        <p>Launch $LEEP<br>Website Live<br>Community Growth</p>
+      </div>
+      <div class="card">
+        <h3>Phase 2</h3>
+        <p>DEX Listings<br>Trending on X/Twitter<br>Charts</p>
+      </div>
+      <div class="card">
+        <h3>Phase 3</h3>
+        <p>Burn Events<br>Collabs<br>More Sleep 😴</p>
+      </div>
+    </div>
   </section>
 
-  <section class="buy">
-    <h2>Buy $LEEP</h2>
-    <p>Click below to grab your sleepy bags:</p>
-    <div class="cta-buttons">
+  <section id="buy">
+    <h2 class="section-title">Buy $LEEP</h2>
+    <div style="text-align:center;">
       <a href="#" class="btn">Pump.fun</a>
       <a href="#" class="btn">LetsBonk</a>
-      <a href="#" class="btn">Photon Chart</a>
+      <a href="#" class="btn">Photon</a>
+      <br/>
+      <a href="#" class="btn">View Token on Solana Explorer</a>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 $LEEP Coin. Dream big. Sleep deep.</p>
+    <p>© 2025 $LEEP Coin. Stay cozy. Sleep more.</p>
   </footer>
+
 </body>
 </html>
